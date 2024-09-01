@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisons tous-Let us read</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload=" generateQuote()">
+    
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/OIP (1).jpeg" alt="" width="30px" height="30px">
+            <span class="logo-text"><i class="fa fa-book" style="margin-right: 0.1em"></i> Tusome  <span style="color: rgb(160, 115, 46);font-size:1.1em">Sote</span></span>
+        </div>
+
+        <div class="box">
+            <input type="text" placeholder="search..." class="input">
+        </div>
+
+        <div class="navfeatures">
+            <a href="main.html">Home</a>
+        </div>
+        
+    </nav>
+
+    <p id="demo"></p>
+
+   <div class="container">
+       <section class="categories">
+        <h2>categories</h2>
+       </section>
+
+        <div class="bookscont">
+            <section class="section1">
+                <div class="banner">
+                    <h1>Novels</h1>
+                    <a href="novels.html">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section2">
+                <div class="banner">
+                    <h1>Non-fictions</h1>
+                    <a href="#product2">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section3">
+                <div class="banner">
+                    <h1>Religion</h1>
+                    <a href="#product3">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section4">
+                <div class="banner">
+                    <h1>History</h1>
+                    <a href="#product4">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section5">
+                <div class="banner">
+                    <h1>Physics</h1>
+                    <a href="#product5">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section6">
+                <div class="banner">
+                    <h1>Mathematics</h1>
+                    <a href="#product6">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section7">
+                <div class="banner">
+                    <h1>Science</h1>
+                    <a href="#product7">Ponda apa</a>
+                </div>
+            </section>
+
+            <section class="section8">
+                <div class="banner">
+                    <h1>Photography</h1>
+                    <a href="#product8">Ponda apa</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="quoteBar" onload=" generateQuote()">
+            <!-- <h3> Celui qui ne veut pas quand il peut, ne poura pas quand il voudra. Celui qui ne veut pas quand il peut, ne poura pas quand il voudra. Bahati Muzingwa C.</h3> -->
+            <button onclick="generateQuote()" class="button"></button>
+            <h3 id="quote"></h3>
+        </section>
+       
+    </div>
+
+    <a href="#">Go up page</a>
+
+   <script src="script.js"></script>
+</body>
+</html>
